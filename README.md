@@ -1,1 +1,2 @@
-# swe_test
+# swe1-app
+Django Application Tutorial
