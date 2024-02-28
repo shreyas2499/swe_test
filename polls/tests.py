@@ -1,7 +1,3 @@
-from django.urls import reverse
-
+from django.test import TestCase
 # Create your tests here.
 
-
-def test(**params):
-    return reverse("index")
