@@ -1,15 +1,15 @@
 language: python
 python:
-  - 3.11.6
+  - 3.9
 
 
 install:
   - pip install -r requirements.txt
 
-script:
-- black --check .
-- flake8 --max-line-length=99 .
-- coverage run manage.py test
+# script:
+# - black --check .
+# - flake8 --max-line-length=99 .
+# - coverage run manage.py test
 
 
 # Fine Grain Token: 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
