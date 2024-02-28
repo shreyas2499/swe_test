@@ -22,6 +22,7 @@ class IndexView(generic.ListView):
 
 class DetailView(generic.DetailView):
     model = Question
+    
     template_name = 'polls/detail.html'
 
 # def detail(request, question_id):
