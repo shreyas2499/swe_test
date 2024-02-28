@@ -15,6 +15,16 @@ script:
 after_scripts:
 - coveralls
 
-# Fine Grain Token: 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
-
-# Token: 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
+deploy:
+  provider: elasticbeanstalk
+  access_key_id: AKIA6ODU6VDB5AVA4BGZ
+  secret_access_key:
+    secure: 2m60EUOOjCJy6UqSpHh67GPnHR9h3AqxPEnxAX8NhytP/Asa8XrXpxFr6GUy/whMk55XL5lSlKE+SR2ngqvjsErU8yKqXX9qtEy1EIQxsYuTvkFyhCcE+0l7OZDy6flBkxqu6YB+gSEqE7PCNWOLRuD6M6lwqSHR6R1j7ug+0pT+4K9aLF/RW5aL+pTOmvJ3sbSZJdXFcu8gEgfHo3NpIon8SRTn5foqw28f4OlfSwG1QQNwJtYm8ogVJ0donQGLXkCQVj2ZlfGSNutQuHm2JNhOsvUeURsAV7EWaiiDZEISO9tfLNTretoOYRTNnJd7vp8p7YY32GB99ItyJx6PyqCqILtjTI8AeFXsLKhFdE3TZD1J93el+X7yirIaeG/kuZoNhoNmkczRQoVZKfzEyiQsK9cr984+GE525v/twdh0qpHiPXRgWGropaXP/KyjezTNmiDfCYREzIAOhqKMW8RsAxwmxid5KQz2GztZiD4yAORtHxCUV6ArO8bSb4uWpfCEMSesDFwNGPNQYLHYNxeqc6RvrTZGhwg4bP9n4d6MEFhg7rt/FFLWk25Z8v+1GuRBvnnrWw2tfPsXkQQTBsWbcGp3CTs+cf7hx9o4EGuJvBbgP1UdSOVSfnCjqe1xNEQrk8FvUKPvuvgyl7miaRozc/TE+emTh4mSYf51l0k=
+  region: us-west-2
+  app: django-app
+  env: Django-app-env
+  bucket_name: elasticbeanstalk-us-west-2-992382724291
+  on:
+    repo: shreyas2499/swe1-app
+    branch: main
+  skip_cleanup: 'true'
