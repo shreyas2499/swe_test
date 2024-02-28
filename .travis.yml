@@ -10,6 +10,7 @@ script:
 - black --check .
 - flake8 --max-line-length=150 .
 - coverage run manage.py test
+- env
 
 
 after_scripts:
