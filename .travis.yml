@@ -12,6 +12,9 @@ script:
 - coverage run manage.py test
 
 
+after_scripts:
+- coveralls
+
 # Fine Grain Token: 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
 
 # Token: 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
