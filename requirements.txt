@@ -12,6 +12,7 @@ chardet
 charset-normalizer
 colorama
 coverage
+coveralls
 cryptography
 Django
 docker
