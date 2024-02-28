@@ -3,6 +3,7 @@ awsebcli
 bcrypt
 blessed
 botocore
+black
 cached-property
 cement
 certifi
@@ -18,6 +19,7 @@ docker-compose
 dockerpty
 docopt
 docutils
+flake8
 future
 git-remote-codecommit
 idna
