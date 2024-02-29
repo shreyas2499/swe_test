@@ -7,4 +7,4 @@ Django Application Tutorial
 
 
 ## Coverage
-[![Coverage Status](https://coveralls.io/repos/github/shreyas2499/swe1-app/badge.svg?branch=main&&service=github)](https://coveralls.io/github/shreyas2499/swe1-app?branch=main)
+[![Coverage Status](https://coveralls.io/repos/github/shreyas2499/swe1-app/badge.svg?branch=main)](https://coveralls.io/github/shreyas2499/swe1-app?branch=main)
