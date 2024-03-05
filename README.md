@@ -16,3 +16,7 @@ Without &&service
 
 Without branch
 [![Coverage Status](https://coveralls.io/repos/github/shreyas2499/swe1-app/badge.svg)](https://coveralls.io/github/shreyas2499/swe1-app?branch=main)
+
+
+## Application URL
+http://django-app-env.eba-nwwq6smg.us-west-2.elasticbeanstalk.com/polls/
